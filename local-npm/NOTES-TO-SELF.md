@@ -7,7 +7,7 @@ docker build . --tag local-npm
 # Run it
 
 ```console
-docker run --name local-npm -d -v "$PWD/local-npm":/data -p 5080:5080 local-npm
+docker run --name local-npm -d -v "$PWD/local-npm":/data -p 5080:5080 thangngoc89/local-npm
 ```
 
 # Start and add it to autostart on each start up
